@@ -1,0 +1,10 @@
+﻿using ShoppingBasket.Repository.Abstract;
+
+namespace ShoppingBasket.Repository.Concrete
+{
+    public class MongoDbSettings : IMongoDbSettings
+    {
+        public string DatabaseName { get; set; }
+        public string ConnectionString { get; set; }
+    }
+}

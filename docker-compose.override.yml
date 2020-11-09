@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  basketdb:
+    container_name: basketdb
+    restart: always
+    volumes:
+        - ${WEBAPP_STORAGE_HOME}/site:/data/db
+    ports:
+        - "27018:27017"  
+  shoppingbasket.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDbSettings:ConnectionString=mongodb://basketdb:27017
+    ports:
+      - "8090:80"

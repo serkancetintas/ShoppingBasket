@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{28ABBB6D-4700-4D81-A001-A7D774A7CEC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Domain", "src\ShoppingBasket.Domain\ShoppingBasket.Domain.csproj", "{40726371-B871-4D3D-AB04-72185EEC75EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Application", "src\ShoppingBasket.Application\ShoppingBasket.Application.csproj", "{EC035794-7873-4A25-A04C-2C7B074B741E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Core", "src\ShoppingBasket.Core\ShoppingBasket.Core.csproj", "{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Application.Contracts", "src\ShoppingBasket.Application.Contracts\ShoppingBasket.Application.Contracts.csproj", "{9696CCF8-CB24-45C5-9EB7-D3145F192D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Api", "src\ShoppingBasket.Api\ShoppingBasket.Api.csproj", "{CBAF6A64-B0F8-4D7F-946A-463551BCC258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Api.IntegrationTest", "test\ShoppingBasket.Api.IntegrationTest\ShoppingBasket.Api.IntegrationTest.csproj", "{B38CED9B-E169-4B06-8758-FBDC0A303A67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Application.Test", "test\ShoppingBasket.Application.Test\ShoppingBasket.Application.Test.csproj", "{554E0AED-5E1C-4002-8E1A-7C387D9C703F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F004EE50-74AB-4647-974C-01A05971EFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Repository", "src\ShoppingBasket.Repository\ShoppingBasket.Repository.csproj", "{101ECBEF-AE24-4B1E-9E3F-085D53E26907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40726371-B871-4D3D-AB04-72185EEC75EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40726371-B871-4D3D-AB04-72185EEC75EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40726371-B871-4D3D-AB04-72185EEC75EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40726371-B871-4D3D-AB04-72185EEC75EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC035794-7873-4A25-A04C-2C7B074B741E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC035794-7873-4A25-A04C-2C7B074B741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC035794-7873-4A25-A04C-2C7B074B741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC035794-7873-4A25-A04C-2C7B074B741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9696CCF8-CB24-45C5-9EB7-D3145F192D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9696CCF8-CB24-45C5-9EB7-D3145F192D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9696CCF8-CB24-45C5-9EB7-D3145F192D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9696CCF8-CB24-45C5-9EB7-D3145F192D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAF6A64-B0F8-4D7F-946A-463551BCC258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAF6A64-B0F8-4D7F-946A-463551BCC258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAF6A64-B0F8-4D7F-946A-463551BCC258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAF6A64-B0F8-4D7F-946A-463551BCC258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38CED9B-E169-4B06-8758-FBDC0A303A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38CED9B-E169-4B06-8758-FBDC0A303A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38CED9B-E169-4B06-8758-FBDC0A303A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38CED9B-E169-4B06-8758-FBDC0A303A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554E0AED-5E1C-4002-8E1A-7C387D9C703F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554E0AED-5E1C-4002-8E1A-7C387D9C703F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554E0AED-5E1C-4002-8E1A-7C387D9C703F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554E0AED-5E1C-4002-8E1A-7C387D9C703F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F004EE50-74AB-4647-974C-01A05971EFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F004EE50-74AB-4647-974C-01A05971EFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F004EE50-74AB-4647-974C-01A05971EFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F004EE50-74AB-4647-974C-01A05971EFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101ECBEF-AE24-4B1E-9E3F-085D53E26907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101ECBEF-AE24-4B1E-9E3F-085D53E26907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101ECBEF-AE24-4B1E-9E3F-085D53E26907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101ECBEF-AE24-4B1E-9E3F-085D53E26907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40726371-B871-4D3D-AB04-72185EEC75EF} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+		{EC035794-7873-4A25-A04C-2C7B074B741E} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+		{5D8238CC-F9C0-4278-B79C-99FCF1E8BF03} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+		{9696CCF8-CB24-45C5-9EB7-D3145F192D00} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+		{CBAF6A64-B0F8-4D7F-946A-463551BCC258} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+		{B38CED9B-E169-4B06-8758-FBDC0A303A67} = {28ABBB6D-4700-4D81-A001-A7D774A7CEC7}
+		{554E0AED-5E1C-4002-8E1A-7C387D9C703F} = {28ABBB6D-4700-4D81-A001-A7D774A7CEC7}
+		{101ECBEF-AE24-4B1E-9E3F-085D53E26907} = {C61FF1BA-8820-4BBF-9BB5-1B40D28C8523}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {444AF3F8-7521-44E8-9597-C4BEA83A4804}
+	EndGlobalSection
+EndGlobal

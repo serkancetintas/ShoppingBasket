@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  basketdb:
+    image: mongo
+  shoppingbasket.api:
+    image: ${DOCKER_REGISTRY-}shoppingbasketapi
+    build:
+      context: .
+      dockerfile: src/ShoppingBasket.Api/Dockerfile
